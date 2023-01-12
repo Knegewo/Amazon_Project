@@ -14,7 +14,8 @@ import Orders from './orders/Orders';
 // import Orders from './orders/Orders';
 
 
-const promise = loadStripe('process.env.REACT_APP_PRIMARY_KEY')
+// const promise = loadStripe('process.env.REACT_APP_PRIMARY_KEY')
+const promise = loadStripe('pk_test_51MLhHJAA7PYsDXsaYgQp6nKMv8pzLibpsjsKs1v1IzCnIKpcNH9SIR9fU01yWqRKAKPbsDJaGkvymo5GGJagBcIc00Ljhflo0K');
 
 function App() {
   const [{}, dispatch] = useStateValue();

@@ -17,4 +17,4 @@ root.render(
 
 
 //State provider - is a layer and wrapped the app.js
-// initialStat take initial state
+// initialState takes initial state
